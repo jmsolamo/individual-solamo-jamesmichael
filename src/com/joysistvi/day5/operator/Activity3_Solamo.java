@@ -13,11 +13,13 @@ public class Activity3_Solamo {
         Age must be 18 or above.
         Must have a valid ID.
         */
+        System.out.println("--- Task 2: Event Entry Check ---");
         int age = 18;
         boolean hasValidID = true;
 
         boolean isAllowed = age >= 18 && hasValidID;
-        System.out.println("Are you allowed?: " +isAllowed);
+        String answer = isAllowed ? "Yes" : "No";
+        System.out.println("Allowed to enter the event: " +answer);
 
 
         /* Using the logical OR operator (||), determine if there are no classes today.
@@ -28,11 +30,13 @@ public class Activity3_Solamo {
            Condition
            No classes if it is a weekend OR a holiday.
          */
+        System.out.println("\n--- Task 3: Class Status Check ---");
         boolean isWeekend = true;
-        boolean isHoliday = true;
+        boolean isHoliday = false;
 
         boolean isNoClass = isWeekend || isHoliday;
-        System.out.println("Do we have a class?: " +isNoClass);
+        String answer2 = isNoClass ? "Yes, no classes." : "No, we have a class.";
+        System.out.println("Are there no class today? " +answer2);
 
 
         /*
@@ -45,11 +49,11 @@ public class Activity3_Solamo {
         75 and above = Passed
         Below 75 = Failed
          */
-
-        int score = 99;
-
-        String grade = (score >= 75) ? "Pass" : "Failed";
-        System.out.println("What is your grade: " +grade);
+        System.out.println("\n--- Task 4: Pass or Fail Check ---");
+        int score = 85;
+        System.out.println("Score: " +score);
+        String grade = (score >= 75) ? "Passed" : "Failed";
+        System.out.println("Result: " +grade);
 
         /*
         Use the ternary operator (? :) to determine the larger number.
@@ -58,12 +62,13 @@ public class Activity3_Solamo {
         int num;
         int num2;
          */
-
-        int num = 99;
-        int num2 = 100;
+        System.out.println("\n--- Task 5: Large Number Check ---");
+        int num = 10;
+        int num2 = 25;
+        System.out.println("Number 1: " +num +", Number 2: " +num2);
 
         int largeNum = (num > num2) ? num : num2;
-        System.out.println("What is the largest number?: " +largeNum);
+        System.out.println("The larger number is: " +largeNum);
 
 
     }
