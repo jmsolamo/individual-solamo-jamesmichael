@@ -17,7 +17,5 @@ public class TernaryOperator {
         int bigger = (num > num2) ? num : num2;
         System.out.println("Bigger number: " + bigger);
 
-        boolean
-
     }
 }
