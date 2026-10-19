@@ -1,4 +1,4 @@
-package com.joysistvi.day4.operators;
+package com.joysistvi.day4.operator;
 
 public class Activity2_Solamo {
     public static void main(String[] args) {

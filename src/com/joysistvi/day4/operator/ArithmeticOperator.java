@@ -1,6 +1,4 @@
-package com.joysistvi.day4.operators;
-
-import jdk.swing.interop.SwingInterOpUtils;
+package com.joysistvi.day4.operator;
 
 public class ArithmeticOperator {
 
