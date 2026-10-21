@@ -15,17 +15,17 @@ public class Activity4_Solamo {
         Age: 60 - 100 → Senior
         */
 
-        Scanner sc = new Scanner(System.in);
+        Scanner input = new Scanner(System.in);
 
         int age;
         String category;
 
         System.out.print("Enter the age: ");
-        age = sc.nextInt();
+        age = input.nextInt();
 
         if(age < 0 || age > 100){
             System.out.println("Invalid Age");
-            sc.close();
+            input.close();
             return;
         }
 
@@ -43,7 +43,7 @@ public class Activity4_Solamo {
                 category = "Baby";
             }
             System.out.println("Category: " + category);
-            sc.close();
+            input.close();
 
 
         /*
