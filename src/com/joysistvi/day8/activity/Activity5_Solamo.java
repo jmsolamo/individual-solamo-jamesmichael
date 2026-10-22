@@ -1,4 +1,4 @@
-package com.joysistvi.day7.activity;
+package com.joysistvi.day8.activity;
 
 import java.util.Scanner;
 
@@ -94,8 +94,8 @@ public class Activity5_Solamo {
                     return;
                 }
                 promoName = (promoChoice == 1) ? "Go50"
-                        : (promoChoice == 2) ? "Go90"
-                        : "Go120";
+                          : (promoChoice == 2) ? "Go90"
+                          : "Go120";
 
                 System.out.println(
                 "\n====== " +promoName +" Promo ======" +
