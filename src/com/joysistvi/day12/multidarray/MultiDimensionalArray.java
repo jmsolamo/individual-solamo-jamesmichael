@@ -32,7 +32,7 @@ public class MultiDimensionalArray {
 
         // Declare a multidimensional array with a specified size only
 
-        String[][] planets = new String[2][5];
+        String[][] planets = new String[2][2];
 
         for(int rows = 0; rows < planets.length; rows++){
             for (int columns = 0; columns < planets[rows].length; columns++){
