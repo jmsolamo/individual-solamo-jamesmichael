@@ -2,9 +2,47 @@ package com.joysistvi.day13.string;
 
 public class Activity10_Solamo {
 
-    public static void main(String[] args) {
+        public static void main(String[] args) {
+            String text = "   Hello Java   ";
 
-        String country = "Philippines";
+            String newText = text.trim();
+
+            System.out.println("Before: [" + text + "]");
+            System.out.println("After: [" + newText + "]");
+        }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+    String country = "Philippines";
 
         // Display the first and last characters
         char first = country.charAt(0);
@@ -37,6 +75,4 @@ public class Activity10_Solamo {
 
         System.out.println("Number of P/p: " + pCount);
         System.out.println("Total vowels: " + vowelCount);
-    }
-
-}
+ */
