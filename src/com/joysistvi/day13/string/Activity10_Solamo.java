@@ -12,35 +12,6 @@ public class Activity10_Solamo {
         }
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /*
     String country = "Philippines";
 
