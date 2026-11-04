@@ -219,14 +219,18 @@ public class LoadRegistrationSimulator {
     }
 
     public static int getInput(String prompt) {
-        System.out.print(prompt);
-        String input = scanner.nextLine().trim();
 
-        try {
-            return Integer.parseInt(input);
-        } catch (Exception e) {
-            System.out.println("Invalid Input. Please enter a number.");
-            return -1;
+        while (true) {
+
+            System.out.print(prompt);
+            String input = scanner.nextLine().trim();
+
+            try {
+                return Integer.parseInt(input);
+            } catch (Exception e) {
+                System.out.println("Invalid Input. Please enter a number.");
+                return -1;
+            }
         }
     }
 }
