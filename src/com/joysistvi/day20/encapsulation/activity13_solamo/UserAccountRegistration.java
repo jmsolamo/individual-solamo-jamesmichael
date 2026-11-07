@@ -18,30 +18,37 @@ public class UserAccountRegistration {
     }
 
     public String getMiddleName() {
+
         return middleName;
     }
 
     public void setMiddleName(String middleName) {
+
         this.middleName = middleName;
     }
 
     public String getLastName() {
+
         return lastName;
     }
 
     public void setLastName(String lastName) {
+
         this.lastName = lastName;
     }
 
     public String getAddress() {
+
         return address;
     }
 
     public void setAddress(String address) {
+
         this.address = address;
     }
 
     public String getEmail() {
+
         return email;
     }
 
@@ -57,6 +64,7 @@ public class UserAccountRegistration {
     }
 
     public String getPassword() {
+
         return password;
     }
 

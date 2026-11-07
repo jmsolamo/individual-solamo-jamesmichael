@@ -16,7 +16,6 @@ public class Main {
         String email;
         String password;
 
-
         System.out.println("*********************************");
         System.out.println("*   User Account Registration   *");
         System.out.println("*********************************");
