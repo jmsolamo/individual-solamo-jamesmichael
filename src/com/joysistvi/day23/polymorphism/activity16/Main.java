@@ -4,9 +4,9 @@ public class Main {
 
     public static void main(String[] args) {
         Pen pen = new Pen("Generic", "Blue", 20);
-        Ballpen ballpen = new Ballpen("Pilot", "Black", 10, 0.5);
-        GelPen gelpen = new GelPen("G-Tech", "Blue", 15, 0.7, true);
-        Highlighter highlighter = new Highlighter("Faber Castell", "Green", 20, "Neon");
+        Pen ballpen = new Ballpen("Pilot", "Black", 10, 0.5);
+        Pen gelpen = new GelPen("G-Tech", "Blue", 15, 0.7, true);
+        Pen highlighter = new Highlighter("Faber Castell", "Green", 20, "Neon");
 
         System.out.println("=== Calling methods on Pen references ===");
         System.out.println("--- Pen ---");
@@ -48,5 +48,5 @@ public class Main {
 
     // Method Overloading (Compile-Time): Multiple methods have the same name but different parameters.
     // Java determines which overloaded method to execute during compile time.
-    // Method Overriding (Runtime): A child class provides its own implementation of an inherited method.
+    // Method Overriding (Runtime Polymorphism): A child class provides its own implementation of an inherited method.
     // Java determines which overridden method to execute during runtime based on the actual object.
