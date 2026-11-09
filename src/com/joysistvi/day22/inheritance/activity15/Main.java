@@ -4,8 +4,8 @@ public class Main {
 
     public static void main(String[] args) {
         Pen pen = new Pen("Any Brand", "Any Color", 20);
-        Ballpen ballpen = new Ballpen("G-Tech", "Black", 10, 0.5);
-        GelPen gelpen = new GelPen("Pilot", "Blue", 15, 0.7, true);
+        Ballpen ballpen = new Ballpen("Pilot", "Black", 10, 0.5);
+        GelPen gelpen = new GelPen("G-Tech", "Blue", 15, 0.7, true);
         Highlighter highlighter = new Highlighter("Faber Castell", "Green", 20, "Neon");
 
         System.out.println("========= Ballpen =========");
