@@ -4,6 +4,10 @@ public class Main {
 
     public static void main(String[] args) {
 
+        // Pen pen = new Pen("Generic", "Blue", 20);
+        // This fails because Pen is an abstract class and cannot be instantiated directly.
+        // We need to create an object of a concrete subclass, such as Ballpen or Highlighter.
+
         Ballpen ballpen = new Ballpen("Pilot", "Black", 10, 0.5);
         Highlighter highlighter = new Highlighter("Faber Castell", "Green", 20, "Neon");
 
